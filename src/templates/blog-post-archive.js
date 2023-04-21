@@ -50,7 +50,6 @@ const BlogIndex = ({
                   </h2>
                   <small>{post.date}</small>
                 </header>
-                <section itemProp="description">{parse(post.excerpt)}</section>
               </article>
             </li>
           )

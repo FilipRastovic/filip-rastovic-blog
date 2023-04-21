@@ -35,11 +35,8 @@ const Layout = ({ isHomePage, children }) => {
       <main>{children}</main>
 
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a>Gatsby</a>
-        {` `}
-        And <a>WordPress</a>
+        <hr></hr>
+        <p>Written, designed, and built by Filip Rastovic, a CRO designer who you can find on <a href="https://www.linkedin.com/in/rastovicfilip/" target="_BLANK">Linkedin.</a> or <a href="mailto:filiporastovic@gmail.com">Email</a></p>
       </footer>
     </div>
   )
