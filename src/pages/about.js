@@ -3,17 +3,19 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Avatar from "../components/avatar"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-
+  
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="About Filip Rastovic" />
-      <h1>About Filip</h1>
-      <p>Filip’s fascination, passion, and curiosity about people, computers, and art, started off from an early age. He drew his first user interface wireframes in kindergarten, playing with the piece of paper, and imagining it as a communication gadget, a pager device. As a high schooler, he got a bit entrepreneurial and used to sell animated PowerPoint presentations to other students who turned them in for grades. He later studied computer science and engineering while mercilessly learning and expanding his understanding of design, marketing, and web usability.</p>
-	  <p>Filip started his professional career as a web designer and developer, working remotely from Serbia for an amazing US-based digital marketing agency, and soon started his own independent consultancy focusing on Conversion Optimization and Web Design.</p>
+    <Seo title="About Filip Rastovic" />
+    <Avatar/>
+    <h1>About Filip</h1>
+    <p>Filip’s fascination, passion, and curiosity about people, computers, and art, started off from an early age. He drew his first user interface wireframes in kindergarten, playing with the piece of paper, and imagining it as a communication gadget, a pager device. As a high schooler, he got a bit entrepreneurial and used to sell animated PowerPoint presentations to other students who turned them in for grades. He later studied computer science and engineering while mercilessly learning and expanding his understanding of design, marketing, and web usability.</p>
+    <p>Filip started his professional career as a web designer and developer, working remotely from Serbia for an amazing US-based digital marketing agency, and soon started his own independent consultancy focusing on Conversion Optimization and Web Design.</p>
 	  <p>He had the pleasure to work with Google, Johnsons & Johnsons, Australian Museum, Guy Kawasaki, Tipalti, Psyop, BunkerVFX, Bending Spoons, Hard Work Club, and 60 other clients from every continent on the planet. </p>
 	  <p>Today he helps his clients solve an array of very specific technical challenges, including doing conversion optimization for e-commerce and landing pages, designing websites and user interfaces, developing them, and setting up optimization/automation pipelines. Filip is a conversion expert, web developer, and graphic designer.</p>
 	  <p>When he’s not working with clients, Filip enjoys creating 3D art (sometimes commercially as well!).</p>
