@@ -973,6 +973,11 @@
   dependencies:
     heap ">= 0.2.0"
 
+"@fontsource/rubik@^4.5.14":
+  version "4.5.14"
+  resolved "https://registry.npmjs.org/@fontsource/rubik/-/rubik-4.5.14.tgz"
+  integrity sha512-EvMK3kkeAgKkk8qAeT4PjpyAYyu72pIlJm+SXJ5vR/xhCX2yj2xoq3+YS38rPmPcCAnrAVONoQ3ezLxVm6jhBA==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@2.3.1":
   version "2.3.1"
   resolved "https://registry.npmjs.org/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-2.3.1.tgz"
@@ -9360,15 +9365,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typeface-merriweather@1.1.13:
+typeface-rubik@1.1.13:
   version "1.1.13"
-  resolved "https://registry.npmjs.org/typeface-merriweather/-/typeface-merriweather-1.1.13.tgz"
-  integrity sha512-ho6xe/y/uHIKVXsFtK+dJfRCD5KZqJCMYTCcXfuCwQHQbeQ83a7hVkxfRMTEIjZOSXw5SevOjnwJuZ5QgWEHiw==
-
-typeface-montserrat@1.1.13:
-  version "1.1.13"
-  resolved "https://registry.npmjs.org/typeface-montserrat/-/typeface-montserrat-1.1.13.tgz"
-  integrity sha512-Pklkyj0e+K+6I/t0M6JBDBphpfJkF1k+3qd8qDnp9aVtCC7oGBQWTAcL6+5eArfGe7h73uPwyal73hEkf9YCUA==
+  resolved "https://registry.npmjs.org/typeface-rubik/-/typeface-rubik-1.1.13.tgz"
+  integrity sha512-mMWgn3bYfT6V4WWA3yvdEM3AkTA7iK1XwhlOX3+vWfqHc6O9I2RUsi9krEXzNdQ1UE/eoEFBRigMtu30PsdEDg==
 
 "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
   version "5.0.4"

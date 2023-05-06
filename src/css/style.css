@@ -27,13 +27,13 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  --fontFamily-sans: Rubik, Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
-  --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-serif);
+  --font-body: var(--fontFamily-sans);
+  --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;
@@ -113,12 +113,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--fontWeight-bold);
+  font-weight: var(--fontWeight-extrabold);
   color: var(--color-heading);
 }
 
 h1 {
-  font-weight: var(--fontWeight-black);
+  font-weight: var(--fontWeight-extrabold);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
 }
@@ -256,7 +256,7 @@ a:focus {
 }
 
 .main-heading {
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-4);
   margin: 0;
 }
 
@@ -281,7 +281,7 @@ a:focus {
 }
 
 .header-link-home {
-  font-weight: var(--fontWeight-bold);
+  font-weight: var(--fontWeight-black);
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
