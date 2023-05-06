@@ -55,11 +55,12 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: black;
-  --color-text: #2e353f;
+  --color-text: black;
   --color-text-light: #4f5969;
-  --color-heading: #1a202c;
+  --color-heading: black;
   --color-heading-black: black;
-  --color-accent: #d1dce5;
+  --color-accent: #80376b;
+  --color-background: #faf8f2;
 }
 
 /* HTML elements */
@@ -81,6 +82,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background-color: var(--color-background);
 }
 
 footer {
@@ -230,7 +232,7 @@ table thead tr th {
 /* Link */
 
 a {
-  color: var(--color-primary);
+  color: var(--color-accent);
   word-break: break-word;
 }
 
@@ -271,7 +273,7 @@ a:focus {
 
 .post-list-item h2 {
   font-size: var(--fontSize-2);
-  color: var(--color-primary);
+  color: var(--color-accent);
   margin-bottom: var(--spacing-1);
   margin-top: var(--spacing-0);
 }
@@ -285,6 +287,7 @@ a:focus {
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
+  color: var(--color-heading-black);
 }
 
 .bio {

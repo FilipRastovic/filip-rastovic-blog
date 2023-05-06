@@ -36,7 +36,7 @@ const Layout = ({ isHomePage, children }) => {
 
       <footer>
         <hr></hr>
-        <p>Written, designed, and built by Filip Rastovic, a CRO designer who you can find on <a href="https://www.linkedin.com/in/rastovicfilip/" target="_BLANK">Linkedin.</a> or <a href="mailto:filiporastovic@gmail.com">Email</a></p>
+        <p>Written, designed, and built by Filip Rastovic, a CRO designer who you can find on <a href="https://www.linkedin.com/in/rastovicfilip/" target="_BLANK">Linkedin</a> or <a href="mailto:filiporastovic@gmail.com">Email</a>. This website is built using Gatsby and deployed to Netlify.</p>
       </footer>
     </div>
   )
