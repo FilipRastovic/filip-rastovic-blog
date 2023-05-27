@@ -39,7 +39,7 @@ const Bio = () => {
           Written by {author.firstName}
           {`, `}
           {author?.description || null}
-          {` Learn more about Filip `} <a href="/about">here.</a> {` Or read his blog below.`}
+          {` Learn more about Filip `} <a href="filiprastovic.com">here.</a> {` Or read his blog below.`}
         </p>
       )}
     </div>
