@@ -70,6 +70,17 @@ module.exports = {
 
     // See https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-K450RT0W2K", 
+        ],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
 
     /**
      * this (optional) plugin enables Progressive Web App + Offline functionality
@@ -77,4 +88,5 @@ module.exports = {
      */
     // `gatsby-plugin-offline`,
   ],
+  
 }
